@@ -13,7 +13,7 @@ function JobAvl() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          `https://internhub-backend.onrender.com/api/job`
+          `https://internshipbackend-vwja.onrender.com/api/job`
         );
         setJobData(response.data);
       } catch (error) {

@@ -9,7 +9,7 @@ function DeatilApplication() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `https://internhub-backend.onrender.com/api/application/${id}`
+        `https://internshipbackend-vwja.onrender.com/api/application/${id}`
       );
 
       setData([response.data]);

@@ -9,7 +9,7 @@ function DeatilApplication() {
   useEffect(() => {
     const fetchData = async () => {
       const response = await axios.get(
-        `https://internhub-backend.onrender.com/api/application/${id}`
+        `https://internshipbackend-vwja.onrender.com/api/application/${id}`
       );
 
       setData([response.data]);
@@ -19,7 +19,7 @@ function DeatilApplication() {
   const handleAcceptAndReject = async (id, action) => {
     try {
       const response = await axios.put(
-        `https://internhub-backend.onrender.com/api/application/${id}`,
+        `https://internshipbackend-vwja.onrender.com/api/application/${id}`,
         { action }
       );
       const UpdateApplication = data.map((app) =>

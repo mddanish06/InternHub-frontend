@@ -22,7 +22,7 @@ function Navbar() {
       };
       axios
         .post(
-          "https://internhub-backend.onrender.com/api/admin/adminLogin",
+          "https://internshipbackend-vwja.onrender.com/api/admin/adminLogin",
           bodyjson
         )
         .then((res) => {
